@@ -7,4 +7,13 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="bin\Debug\net8.0\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="bin\Debug\net8.0\WebServer\default.html" />
+      <None Include="bin\Debug\net8.0\WebServer\second.html" />
+    </ItemGroup>
+
 </Project>
